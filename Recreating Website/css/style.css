@@ -1,3 +1,27 @@
 .jumbotron{
-  background-color: #ADFF2F;
+  background-color: #A8D926;
+}
+
+#image1{
+  width:        34%;
+  float:        left;
+}
+
+#image2{
+  width:        34.5%;
+  float:        left;
+}
+
+#image3{
+  width:        31.5%;
+  float:        left;
+}
+
+.footer{
+  text-align: left;
+}
+
+hr {
+  display: block;
+  width: 1110px;
 }

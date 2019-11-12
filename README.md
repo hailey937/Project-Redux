@@ -1,2 +1,2 @@
 # Project-Redux
-green color: #48dc50
+ask about orange color for website
