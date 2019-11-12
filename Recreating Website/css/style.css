@@ -25,3 +25,8 @@ hr {
   display: block;
   width: 1110px;
 }
+
+.orange {
+  background-color: orange;
+  padding: 1%;
+}
