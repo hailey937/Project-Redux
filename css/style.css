@@ -6,28 +6,33 @@
   width: 45%;
   border-radius: 10px;
   border: 3px solid black;
+  image-rendering: pixelated;
 }
 
 .About {
   width: 45%;
   border-radius: 10px;
   border: 3px solid black;
+  image-rendering: pixelated;
 }
 
 .OurRescues {
   width: 45%;
   border-radius: 10px;
   border: 3px solid black;
+  image-rendering: pixelated;
 }
 
 .Donate {
   width: 45%;
   border-radius: 10px;
   border: 3px solid black;
+  image-rendering: pixelated;
 }
 
 .Contact {
   width: 45%;
   border-radius: 10px;
   border: 3px solid black;
+  image-rendering: pixelated;
 }
