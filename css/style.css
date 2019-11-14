@@ -1,0 +1,33 @@
+.jumbotron {
+  background-color: #E6E6FA;
+}
+
+.HaileysHorseRescue {
+  width: 45%;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.About {
+  width: 45%;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.OurRescues {
+  width: 45%;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.Donate {
+  width: 45%;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.Contact {
+  width: 45%;
+  border-radius: 10px;
+  border: 3px solid black;
+}
