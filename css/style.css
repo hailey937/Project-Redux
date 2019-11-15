@@ -36,3 +36,11 @@
   border: 3px solid black;
   image-rendering: pixelated;
 }
+
+.navbar-light .nav-item.active .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .nav-item:hover .nav-link {
+  color: #ffffff;
+}
