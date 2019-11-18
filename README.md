@@ -1,2 +1,3 @@
 # Project-Redux
-how to get donate button aligned with other text in navbar
+Fix images
+Change up Rescues page
