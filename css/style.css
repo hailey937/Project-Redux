@@ -2,45 +2,50 @@
   background-color: #E6E6FA;
 }
 
-.HaileysHorseRescue {
-  width: 45%;
-  border-radius: 10px;
-  border: 3px solid black;
-  image-rendering: pixelated;
-}
-
-.About {
-  width: 45%;
-  border-radius: 10px;
-  border: 3px solid black;
-  image-rendering: pixelated;
-}
-
-.OurRescues {
-  width: 45%;
-  border-radius: 10px;
-  border: 3px solid black;
-  image-rendering: pixelated;
-}
-
-.Donate {
-  width: 45%;
-  border-radius: 10px;
-  border: 3px solid black;
-  image-rendering: pixelated;
-}
-
-.Contact {
-  width: 45%;
-  border-radius: 10px;
-  border: 3px solid black;
-  image-rendering: pixelated;
-}
-
 .navbar-light .nav-item.active .nav-link {
   color: #ffffff;
 }
 
 .navbar-light .nav-item:hover .nav-link {
   color: #ffffff;
+}
+
+img {
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.Horses {
+  width: 130%;
+  margin: 0;
+}
+
+.HelpHorse {
+  width: 160%;
+  margin: 0;
+}
+
+.Rescues {
+  width: 140%;
+  margin: 0;
+}
+
+.Volunteering {
+  width: 140%;
+  margin: 0;
+}
+
+.Donation {
+  width: 150%;
+  margin: 0;
+}
+
+.pink {
+  background-color: pink;
+  padding: 2%;
+}
+
+.lavender{
+  background-color: #E6E6FA;
+  padding: 2%;
 }
