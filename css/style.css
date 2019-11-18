@@ -16,28 +16,40 @@ img {
 }
 
 .Horses {
-  width: 130%;
-  margin: 0;
+  width: 100%;
+}
+
+.Apple{
+  width: 400px;
+  height: 600px;
+}
+
+.Person{
+  margin-top: 80px;
+}
+
+.White{
+  margin-top: 79px;
 }
 
 .HelpHorse {
-  width: 160%;
-  margin: 0;
+  width: 100%;
+
 }
 
 .Rescues {
-  width: 140%;
-  margin: 0;
+  width: 100%;
+
 }
 
 .Volunteering {
-  width: 140%;
-  margin: 0;
+  width: 100%;
+
 }
 
 .Donation {
-  width: 150%;
-  margin: 0;
+  width: 100%;
+
 }
 
 .pink {
