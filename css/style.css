@@ -15,13 +15,18 @@ img {
   border: 3px solid black;
 }
 
+.text-indent {
+  text-indent: 15px;
+}
+
 .Horses {
   width: 100%;
 }
 
-.Apple{
-  width: 400px;
+.Apple {
+  width: 450px;
   height: 600px;
+  margin-left: 150px;
 }
 
 .Person{
@@ -34,22 +39,34 @@ img {
 
 .HelpHorse {
   width: 100%;
+}
 
+.Check {
+  margin-top: 45px;
 }
 
 .Rescues {
   width: 100%;
-
 }
 
 .Volunteering {
   width: 100%;
+}
 
+.Eating {
+  margin-top: 24px;
 }
 
 .Donation {
   width: 100%;
+}
 
+.Treats {
+  margin-top: 100px;
+}
+
+.Cremello {
+  margin-top: 93px;
 }
 
 .pink {
