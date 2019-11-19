@@ -1,2 +1,2 @@
 # Project-Redux
-Fix images
+Fix index images - make all centered
