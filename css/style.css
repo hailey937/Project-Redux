@@ -23,18 +23,12 @@ img {
   width: 100%;
 }
 
-.Apple {
-  width: 450px;
-  height: 600px;
-  margin-left: 150px;
+.Person {
+  margin-top: 25px;
 }
 
-.Person{
-  margin-top: 80px;
-}
-
-.White{
-  margin-top: 79px;
+.White {
+  margin-top: 24px;
 }
 
 .HelpHorse {
