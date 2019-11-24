@@ -65,27 +65,65 @@
       <br><br>
     </div>
     <div class="col-sm-9">
-      <form action="#">
+      <form class="needs-validation" novalidate>
         <div class="form-group">
           <label for="fname">First Name *</label>
-          <input class="form-control" type="text" name="firstName" id="fname">
-          <label for="lname">Last Name *</label>
-          <input class="form-control" type="text" name="lastName" id="lname">
-          <label for="email">Email Address *</label>
-          <input class="form-control" type="text" name="EmailAddress" id="emailAd.">
-          <label for="phone">Phone *</label>
-          <input class="form-control" type="text" name="PhoneNumber" id="phone#">
-          <label for="subject">Subject *</label>
-          <input class="form-control" type="text" name="Subject" id="subject">
-          <label for="message">Message *</label>
-          <input class="form-control" type="text" name="Message" id="message">
+          <input class="form-control" type="text" name="firstName" id="fname" required>
+          <div class="invalid-feedback">First Name is required.</div>
         </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
+        <div class="form-group">
+          <label for="lname">Last Name *</label>
+          <input class="form-control" type="text" name="lastName" id="lname" required>
+          <div class="invalid-feedback">Last Name is required.</div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input class="form-control" type="text" name="EmailAddress" id="emailAd." required>
+          <div class="invalid-feedback">Email Address is required.</div>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone *</label>
+          <input class="form-control" type="text" name="PhoneNumber" id="phone#" required>
+            <small class="w-100">(###) - ### - ####</small>
+          <div class="invalid-feedback">Phone is required.</div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject *</label>
+          <input class="form-control" type="text" name="Subject" id="subject" required>
+          <div class="invalid-feedback">Subject is required.</div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea class="form-control" rows="5" name="Message" id="message" required></textarea>
+          <div class="invalid-feedback">Message is required.</div>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-dark">Submit</button>
       </form>
+        </div>
       <br><br>
     </div>
   </div>
 </div>
+
+<script>
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    var forms = document.getElementsByClassName('needs-validation');
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-4">
